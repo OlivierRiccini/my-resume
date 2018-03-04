@@ -1,6 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+/*body {
+  background-color: #F6F6F6;
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 30px;
+}
+
+.container {
+  color: rgba(10,10,10,0.8);
+  background-color: #fff;
+  box-shadow: 1px 1px 4px rgba(100,100,100,0.2);
+  height: 100%;
+  width: 50%;
+}*/
+
 
 body {
+  background: rgb(204,204,204);
+  font-family: 'PT Serif', serif;
+  color: rgb(80,80,80);
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  padding: 20px 140px;
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+.title {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+a {
+ color: rgba(0,0,0,0.7);
+ cursor: pointer;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.9);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 12px 0;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 0 0 12px 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.skills, .intro {
+  margin-left: -70px;
+  margin-right: -70px;
+}
+
+.section-title {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.experience, .education {
+  margin-left: -70px;
+  margin-right: -70px;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+
+/*body {
   background-color: #F6F6F6;
   font-family: 'Ubuntu', sans-serif;
   color: #295E6A;
@@ -11,7 +110,10 @@ body {
   line-height: 1.8;
   letter-spacing: 1px;
 }
+*/
 
+
+/*
 .banner {
   background-color: #DFEFF0;
   padding: 40px;
@@ -106,3 +208,4 @@ a {
 .info {
   margin-bottom: 60px;
 }
+*/
