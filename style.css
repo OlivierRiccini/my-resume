@@ -11,7 +11,7 @@ page {
   margin: 50px auto;
   margin-bottom: 0.5cm;
   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  padding: 20px 140px;
+  padding: 35px 140px;
 }
 page[size="A4"] {
   width: 21cm;
@@ -33,7 +33,7 @@ page[size="A4"][layout="portrait"] {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 a {
